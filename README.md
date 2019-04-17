@@ -30,7 +30,7 @@ The following commands can be tried.
 - `cargo run --bin world`
 - `cargo run --example hello_world`
 - `cargo test`
-- `rustup run nightly cargo bench`
+- `cargo +nightly bench`
 
-`cargo bench` requires nightly Rust, so you should use `rustup` for switching to nightly.
+`cargo bench` requires nightly Rust, so you should use `+nightly` option.
 
